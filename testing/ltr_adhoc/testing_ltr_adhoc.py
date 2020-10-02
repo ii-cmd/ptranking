@@ -66,14 +66,14 @@ if __name__ == '__main__':
 	#dir_output = '/Users/solar/WorkBench/CodeBench/PyCharmProject/Project_output/Out_L2R/'
 
 
-	debug = True # in a debug mode, we just check whether the model can operate
-	grid_search = True # with grid_search, we can explore the effects of different hyper-parameters of a model
+	debug = False # in a debug mode, we just check whether the model can operate
+	grid_search = False # with grid_search, we can explore the effects of different hyper-parameters of a model
 
 	evaluator = LTREvaluator()
 
 	to_run_models = [
 		#'RankMSE', 'RankNet',
-		'LambdaRank',
+		'RankNet',
 		#'ListNet', 'ListMLE', 'RankCosine',
 		#'ApproxNDCG',
 		#'WassRank',
